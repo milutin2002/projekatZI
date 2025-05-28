@@ -1,0 +1,9 @@
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/projekatZI.dir
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/install.dir
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/projekatZI_autogen_timestamp_deps.dir
+/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/CMakeFiles/projekatZI_autogen.dir

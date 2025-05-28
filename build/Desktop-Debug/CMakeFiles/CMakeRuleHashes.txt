@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+deb7a6a1233d9e5fe43f2ccfb1ade15a CMakeFiles/projekatZI_autogen
+249a4226a180531a7c79c7a2271b37b6 projekatZI_autogen/timestamp

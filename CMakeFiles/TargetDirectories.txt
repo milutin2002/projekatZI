@@ -1,0 +1,9 @@
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/projekatZI.dir
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/edit_cache.dir
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/rebuild_cache.dir
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/list_install_components.dir
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/install.dir
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/install/local.dir
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/install/strip.dir
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/projekatZI_autogen_timestamp_deps.dir
+/home/milutin/Predavanje/ZI/projekatZI/CMakeFiles/projekatZI_autogen.dir

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8076796f39fe432617a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "projekatZI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "projekatZI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-projekatZI-Debug-9a93c6c1b655c7200e9a.json",
+					"name" : "projekatZI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "projekatZI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-projekatZI_autogen-Debug-310e8ff6319c2f4d46d7.json",
+					"name" : "projekatZI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "projekatZI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-projekatZI_autogen_timestamp_deps-Debug-d2c791599dbddad37358.json",
+					"name" : "projekatZI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug",
+		"source" : "/home/milutin/Predavanje/ZI/projekatZI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

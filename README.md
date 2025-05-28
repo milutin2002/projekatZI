@@ -21,7 +21,7 @@ A Qt-based C++ desktop application for encrypting and decrypting files using sym
 ## 🛠️ Technologies Used
 
 - **C++17**
-- **Qt 5 / Qt 6** (Widgets + Network)
+- **Qt  Qt 6** (Widgets + Network)
 - **CMake ≥ 3.16**
 
 ---

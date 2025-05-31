@@ -71,3 +71,26 @@ A Qt-based C++ desktop application for encrypting and decrypting files using sym
 
 7 directories, 33 files
 ```
+🧰 Troubleshooting
+If you encounter errors such as:
+
+Qt6 not found
+
+QWidget: No such file or directory
+
+Could NOT find Qt6 (missing: Qt6Widgets)
+
+You likely need to install the required Qt and build tools.
+
+🐧 On Arch/Manjaro:
+bash
+Copy
+Edit
+sudo pacman -S qt6-base cmake g++
+🐧 On Ubuntu/Debian:
+bash
+Copy
+Edit
+sudo apt update
+sudo apt install qt6-base-dev cmake g++
+💡 Tip: If you have both Qt5 and Qt6 installed, CMake will usually find Qt6 by default. You can force a specific version using -DQt6_DIR=....

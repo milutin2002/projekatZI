@@ -98,3 +98,8 @@ sudo apt update
 sudo apt install qt6-base-dev cmake g++
 ```
 💡 Tip: If you have both Qt5 and Qt6 installed, CMake will usually find Qt6 by default. You can force a specific version using -DQt6_DIR=....
+```
+mkdir build && cd build
+cmake ..
+cmake --build .
+```

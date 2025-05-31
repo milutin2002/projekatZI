@@ -4,6 +4,7 @@
 #include<QString>
 #include<QFile>
 #include<QDebug>
+
 class FileEncryptor
 {
 private:

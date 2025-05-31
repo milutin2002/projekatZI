@@ -3,12 +3,9 @@
   /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/enigmafileencryptor.h \
   /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/fileencryptor.h \
   /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/symetricfileencryptor.h \
-  /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/tigerhash.h \
   /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/xxteacfb.h \
   /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/xxteaencryptor.h \
   /home/milutin/Predavanje/ZI/projekatZI/Threads/threadencryptor.h \
-  /home/milutin/Predavanje/ZI/projekatZI/networkrecv.h \
-  /home/milutin/Predavanje/ZI/projekatZI/networksender.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -83,7 +80,6 @@
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.1.1/algorithm \
@@ -100,14 +96,11 @@
   /usr/include/c++/15.1.1/bits/atomic_base.h \
   /usr/include/c++/15.1.1/bits/atomic_futex.h \
   /usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/15.1.1/bits/basic_ios.h \
-  /usr/include/c++/15.1.1/bits/basic_ios.tcc \
   /usr/include/c++/15.1.1/bits/basic_string.h \
   /usr/include/c++/15.1.1/bits/basic_string.tcc \
   /usr/include/c++/15.1.1/bits/char_traits.h \
   /usr/include/c++/15.1.1/bits/charconv.h \
   /usr/include/c++/15.1.1/bits/chrono.h \
-  /usr/include/c++/15.1.1/bits/codecvt.h \
   /usr/include/c++/15.1.1/bits/concept_check.h \
   /usr/include/c++/15.1.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.1.1/bits/cxxabi_forced.h \
@@ -124,15 +117,9 @@
   /usr/include/c++/15.1.1/bits/hashtable_policy.h \
   /usr/include/c++/15.1.1/bits/invoke.h \
   /usr/include/c++/15.1.1/bits/ios_base.h \
-  /usr/include/c++/15.1.1/bits/istream.tcc \
   /usr/include/c++/15.1.1/bits/list.tcc \
   /usr/include/c++/15.1.1/bits/locale_classes.h \
   /usr/include/c++/15.1.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.1.1/bits/locale_conv.h \
-  /usr/include/c++/15.1.1/bits/locale_facets.h \
-  /usr/include/c++/15.1.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.1.1/bits/locale_facets_nonio.h \
-  /usr/include/c++/15.1.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.1.1/bits/localefwd.h \
   /usr/include/c++/15.1.1/bits/memory_resource.h \
   /usr/include/c++/15.1.1/bits/memoryfwd.h \
@@ -140,14 +127,11 @@
   /usr/include/c++/15.1.1/bits/nested_exception.h \
   /usr/include/c++/15.1.1/bits/new_allocator.h \
   /usr/include/c++/15.1.1/bits/node_handle.h \
-  /usr/include/c++/15.1.1/bits/ostream.h \
-  /usr/include/c++/15.1.1/bits/ostream.tcc \
   /usr/include/c++/15.1.1/bits/ostream_insert.h \
   /usr/include/c++/15.1.1/bits/parse_numbers.h \
   /usr/include/c++/15.1.1/bits/postypes.h \
   /usr/include/c++/15.1.1/bits/predefined_ops.h \
   /usr/include/c++/15.1.1/bits/ptr_traits.h \
-  /usr/include/c++/15.1.1/bits/quoted_string.h \
   /usr/include/c++/15.1.1/bits/range_access.h \
   /usr/include/c++/15.1.1/bits/refwrap.h \
   /usr/include/c++/15.1.1/bits/requires_hosted.h \
@@ -155,7 +139,6 @@
   /usr/include/c++/15.1.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/15.1.1/bits/shared_ptr_base.h \
   /usr/include/c++/15.1.1/bits/specfun.h \
-  /usr/include/c++/15.1.1/bits/sstream.tcc \
   /usr/include/c++/15.1.1/bits/std_abs.h \
   /usr/include/c++/15.1.1/bits/std_function.h \
   /usr/include/c++/15.1.1/bits/std_mutex.h \
@@ -214,7 +197,6 @@
   /usr/include/c++/15.1.1/cstring \
   /usr/include/c++/15.1.1/ctime \
   /usr/include/c++/15.1.1/cwchar \
-  /usr/include/c++/15.1.1/cwctype \
   /usr/include/c++/15.1.1/debug/assertions.h \
   /usr/include/c++/15.1.1/debug/debug.h \
   /usr/include/c++/15.1.1/exception \
@@ -229,26 +211,20 @@
   /usr/include/c++/15.1.1/functional \
   /usr/include/c++/15.1.1/future \
   /usr/include/c++/15.1.1/initializer_list \
-  /usr/include/c++/15.1.1/iomanip \
-  /usr/include/c++/15.1.1/ios \
   /usr/include/c++/15.1.1/iosfwd \
-  /usr/include/c++/15.1.1/istream \
   /usr/include/c++/15.1.1/iterator \
   /usr/include/c++/15.1.1/limits \
   /usr/include/c++/15.1.1/list \
-  /usr/include/c++/15.1.1/locale \
   /usr/include/c++/15.1.1/map \
   /usr/include/c++/15.1.1/memory \
   /usr/include/c++/15.1.1/mutex \
   /usr/include/c++/15.1.1/new \
   /usr/include/c++/15.1.1/numeric \
   /usr/include/c++/15.1.1/optional \
-  /usr/include/c++/15.1.1/ostream \
   /usr/include/c++/15.1.1/pstl/execution_defs.h \
   /usr/include/c++/15.1.1/pstl/glue_numeric_defs.h \
   /usr/include/c++/15.1.1/ratio \
   /usr/include/c++/15.1.1/set \
-  /usr/include/c++/15.1.1/sstream \
   /usr/include/c++/15.1.1/stdexcept \
   /usr/include/c++/15.1.1/streambuf \
   /usr/include/c++/15.1.1/string \
@@ -279,14 +255,10 @@
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -294,7 +266,6 @@
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
-  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -536,7 +507,6 @@
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
-  /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h

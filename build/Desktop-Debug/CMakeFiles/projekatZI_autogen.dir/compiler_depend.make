@@ -21,8 +21,6 @@ projekatZI_autogen/timestamp: /home/milutin/Predavanje/ZI/projekatZI/CMakeLists.
   CMakeFiles/4.0.2-dirty/CMakeSystem.cmake \
   projekatZI_autogen/moc_predefs.h \
   /home/milutin/Predavanje/ZI/projekatZI/main.cpp \
-  /home/milutin/Predavanje/ZI/projekatZI/networkrecv.h \
-  /home/milutin/Predavanje/ZI/projekatZI/networksender.h \
   /home/milutin/Predavanje/ZI/projekatZI/widget.cpp \
   /home/milutin/Predavanje/ZI/projekatZI/widget.h \
   /home/milutin/Predavanje/ZI/projekatZI/widget.ui \
@@ -1339,7 +1337,7 @@ projekatZI_autogen/timestamp: /home/milutin/Predavanje/ZI/projekatZI/CMakeLists.
 
 /usr/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
-/usr/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
+/usr/include/c++/15.1.1/tr1/poly_hermite.tcc:
 
 /usr/include/c++/15.1.1/tr1/gamma.tcc:
 
@@ -1563,6 +1561,26 @@ projekatZI_autogen/timestamp: /home/milutin/Predavanje/ZI/projekatZI/CMakeLists.
 
 /usr/include/c++/15.1.1/bits/exception_ptr.h:
 
+/usr/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/c++/15.1.1/bits/stl_set.h:
+
+/usr/include/c++/15.1.1/bits/range_access.h:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/qt6/QtCore/qstringalgorithms.h:
+
+/usr/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
+
+/usr/include/qt6/QtGui/qfontinfo.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/include/qt6/QtGui/qtextdocument.h:
+
 /usr/include/c++/15.1.1/condition_variable:
 
 CMakeFiles/4.0.2-dirty/CMakeSystem.cmake:
@@ -1593,13 +1611,9 @@ CMakeFiles/4.0.2-dirty/CMakeSystem.cmake:
 
 /usr/include/c++/15.1.1/bits/stl_function.h:
 
-/usr/include/c++/15.1.1/bits/parse_numbers.h:
-
 /usr/include/c++/15.1.1/bits/locale_classes.h:
 
-/usr/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake:
-
-/usr/include/bits/types/struct_timeval.h:
+/usr/include/c++/15.1.1/bits/parse_numbers.h:
 
 /usr/include/bits/floatn.h:
 
@@ -1625,12 +1639,6 @@ CMakeFiles/4.0.2-dirty/CMakeSystem.cmake:
 
 /usr/include/bits/endianness.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/qt6/QtCore/qttranslation.h:
-
-/usr/include/qt6/QtCore/qversiontagging.h:
-
 /usr/include/c++/15.1.1/bits/stl_iterator.h:
 
 /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/fileencryptor.cpp:
@@ -1650,6 +1658,10 @@ CMakeFiles/4.0.2-dirty/CMakeSystem.cmake:
 /usr/include/bits/locale.h:
 
 /usr/include/c++/15.1.1/tr1/legendre_function.tcc:
+
+/usr/include/c++/15.1.1/bits/unordered_set.h:
+
+/usr/include/c++/15.1.1/concepts:
 
 /usr/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
 
@@ -1721,18 +1733,6 @@ CMakeFiles/4.0.2-dirty/CMakeSystem.cmake:
 
 /usr/include/bits/types/__sigset_t.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/15.1.1/cstdlib:
-
-/usr/include/qt6/QtCore/qurl.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
-
-/usr/include/c++/15.1.1/bits/node_handle.h:
-
 /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/xxteaencryptor.cpp:
 
 /usr/include/bits/setjmp.h:
@@ -1795,9 +1795,13 @@ CMakeFiles/4.0.2-dirty/CMakeSystem.cmake:
 
 /usr/include/qt6/QtCore/qpoint.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
 
-/usr/include/asm/errno.h:
+/usr/include/c++/15.1.1/bits/node_handle.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/bits/thread-shared-types.h:
 
 /usr/include/c++/15.1.1/bits/uses_allocator_args.h:
 
@@ -1810,24 +1814,6 @@ CMakeFiles/4.0.2-dirty/CMakeSystem.cmake:
 /usr/include/bits/cpu-set.h:
 
 /usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/15.1.1/concepts:
-
-/usr/include/c++/15.1.1/bits/unordered_set.h:
-
-/usr/include/c++/15.1.1/bits/range_access.h:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/qt6/QtCore/qstringalgorithms.h:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
-
-/usr/include/qt6/QtGui/qfontinfo.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtGui/qtextdocument.h:
 
 /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake:
 
@@ -1875,10 +1861,6 @@ projekatZI_autogen/moc_predefs.h:
 
 /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/xxteacfb.cpp:
 
-/usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
 /usr/include/c++/15.1.1/bits/stringfwd.h:
 
 /usr/include/asm-generic/types.h:
@@ -1911,6 +1893,8 @@ projekatZI_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qtcore-config.h:
 
+/usr/include/c++/15.1.1/tr1/modified_bessel_func.tcc:
+
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/include/c++/15.1.1/bits/chrono.h:
@@ -1921,13 +1905,17 @@ projekatZI_autogen/moc_predefs.h:
 
 /home/milutin/Predavanje/ZI/projekatZI/widget.ui:
 
-/usr/include/c++/15.1.1/bits/stl_map.h:
+/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/usr/include/qt6/QtCore/qelapsedtimer.h:
+/usr/include/c++/15.1.1/cstdlib:
+
+/usr/include/c++/15.1.1/bits/stl_map.h:
 
 /usr/include/qt6/QtCore/qfiledevice.h:
 
-/home/milutin/Predavanje/ZI/projekatZI/networkrecv.h:
+/usr/include/qt6/QtCore/qelapsedtimer.h:
+
+/usr/include/qt6/QtCore/qurl.h:
 
 /usr/include/alloca.h:
 
@@ -1945,7 +1933,9 @@ projekatZI_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qconfig.h:
 
-/usr/include/c++/15.1.1/bits/stl_set.h:
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake:
 
@@ -2127,6 +2117,8 @@ CMakeFiles/4.0.2-dirty/CMakeCXXCompiler.cmake:
 
 /usr/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
+/usr/include/asm/errno.h:
+
 /usr/include/qt6/QtCore/qdirlisting.h:
 
 /usr/include/c++/15.1.1/bits/align.h:
@@ -2137,17 +2129,11 @@ CMakeFiles/4.0.2-dirty/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/15.1.1/bits/cpp_type_traits.h:
 
-/usr/include/c++/15.1.1/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/15.1.1/tr1/poly_hermite.tcc:
-
 /usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/15.1.1/tr1/special_function_util.h:
 
 /usr/include/qt6/QtCore/qcontainerinfo.h:
-
-/home/milutin/Predavanje/ZI/projekatZI/networksender.h:
 
 /usr/include/c++/15.1.1/vector:
 
@@ -2226,6 +2212,8 @@ CMakeFiles/4.0.2-dirty/CMakeCXXCompiler.cmake:
 /usr/include/gnu/stubs-64.h:
 
 /usr/include/qt6/QtCore/qtversionchecks.h:
+
+/usr/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
 /usr/include/linux/limits.h:
 
@@ -2528,6 +2516,12 @@ CMakeFiles/4.0.2-dirty/CMakeCXXCompiler.cmake:
 /usr/include/bits/libc-header-start.h:
 
 /usr/include/qt6/QtCore/qtresource.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtCore/qttranslation.h:
+
+/usr/include/qt6/QtCore/qversiontagging.h:
 
 /usr/include/qt6/QtCore/qtversion.h:
 

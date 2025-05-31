@@ -398,17 +398,6 @@ CMakeFiles/projekatZI.dir/widget.cpp.o: \
  /usr/include/qt6/QtGui/qtextoption.h \
  /usr/include/qt6/QtCore/QFileSystemWatcher \
  /usr/include/qt6/QtCore/qfilesystemwatcher.h \
- /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/enigmafileencryptor.h \
- /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/symetricfileencryptor.h \
- /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/fileencryptor.h \
- /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /usr/include/qt6/QtCore/QFile /usr/include/qt6/QtCore/qfile.h \
- /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
- /home/milutin/Predavanje/ZI/projekatZI/Threads/threadencryptor.h \
- /usr/include/qt6/QtCore/QRunnable /usr/include/qt6/QtCore/qrunnable.h \
- /home/milutin/Predavanje/ZI/projekatZI/Threads/../SecurityAlgo/fileencryptor.h \
- /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/xxteacfb.h \
- /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/xxteaencryptor.h \
  /usr/include/qt6/QtCore/QThreadPool \
  /usr/include/qt6/QtCore/qthreadpool.h /usr/include/qt6/QtCore/qthread.h \
  /usr/include/qt6/QtCore/qdeadlinetimer.h \
@@ -436,9 +425,17 @@ CMakeFiles/projekatZI.dir/widget.cpp.o: \
  /usr/include/qt6/QtWidgets/QMessageBox \
  /usr/include/qt6/QtWidgets/qmessagebox.h \
  /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
- /home/milutin/Predavanje/ZI/projekatZI/networkrecv.h \
- /home/milutin/Predavanje/ZI/projekatZI/networksender.h \
- /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/tigerhash.h \
+ /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/enigmafileencryptor.h \
+ /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/symetricfileencryptor.h \
+ /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/fileencryptor.h \
+ /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
+ /usr/include/qt6/QtCore/QFile /usr/include/qt6/QtCore/qfile.h \
+ /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
+ /home/milutin/Predavanje/ZI/projekatZI/Threads/threadencryptor.h \
+ /usr/include/qt6/QtCore/QRunnable /usr/include/qt6/QtCore/qrunnable.h \
+ /home/milutin/Predavanje/ZI/projekatZI/Threads/../SecurityAlgo/fileencryptor.h \
+ /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/xxteacfb.h \
+ /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/xxteaencryptor.h \
  /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/include/./ui_widget.h \
  /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/qvariant.h \
  /usr/include/qt6/QtWidgets/QApplication \
@@ -453,4 +450,5 @@ CMakeFiles/projekatZI.dir/widget.cpp.o: \
  /usr/include/qt6/QtGui/qguiapplication.h \
  /usr/include/qt6/QtGui/qinputmethod.h \
  /usr/include/qt6/QtGui/qguiapplication_platform.h \
- /usr/include/qt6/QtWidgets/QWidget
+ /usr/include/qt6/QtWidgets/QWidget \
+ /home/milutin/Predavanje/ZI/projekatZI/SecurityAlgo/tigerhash.h

@@ -11,17 +11,17 @@
 #include<QFileDialog>
 #include<QLineEdit>
 #include<QFileSystemWatcher>
-#include"SecurityAlgo/enigmafileencryptor.h"
-#include"Threads/threadencryptor.h"
-#include"SecurityAlgo/xxteacfb.h"
 #include<QThreadPool>
 #include<QIntValidator>
 #include<QTcpServer>
 #include<QInputDialog>
 #include<QTcpSocket>
 #include<QMessageBox>
-#include "networkrecv.h"
-#include"networksender.h"
+
+#include"SecurityAlgo/enigmafileencryptor.h"
+#include"Threads/threadencryptor.h"
+#include"SecurityAlgo/xxteacfb.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;

@@ -399,17 +399,6 @@ CMakeFiles/projekatZI.dir/projekatZI_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtGui/qtextoption.h \
  /usr/include/qt6/QtCore/QFileSystemWatcher \
  /usr/include/qt6/QtCore/qfilesystemwatcher.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/enigmafileencryptor.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/symetricfileencryptor.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/fileencryptor.h \
- /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /usr/include/qt6/QtCore/QFile /usr/include/qt6/QtCore/qfile.h \
- /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../Threads/threadencryptor.h \
- /usr/include/qt6/QtCore/QRunnable /usr/include/qt6/QtCore/qrunnable.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../Threads/../SecurityAlgo/fileencryptor.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/xxteacfb.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/xxteaencryptor.h \
  /usr/include/qt6/QtCore/QThreadPool \
  /usr/include/qt6/QtCore/qthreadpool.h /usr/include/qt6/QtCore/qthread.h \
  /usr/include/qt6/QtCore/qdeadlinetimer.h \
@@ -437,9 +426,17 @@ CMakeFiles/projekatZI.dir/projekatZI_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtWidgets/QMessageBox \
  /usr/include/qt6/QtWidgets/qmessagebox.h \
  /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../networkrecv.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../networksender.h \
- /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/tigerhash.h \
+ /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/enigmafileencryptor.h \
+ /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/symetricfileencryptor.h \
+ /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/fileencryptor.h \
+ /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
+ /usr/include/qt6/QtCore/QFile /usr/include/qt6/QtCore/qfile.h \
+ /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h \
+ /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../Threads/threadencryptor.h \
+ /usr/include/qt6/QtCore/QRunnable /usr/include/qt6/QtCore/qrunnable.h \
+ /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../Threads/../SecurityAlgo/fileencryptor.h \
+ /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/xxteacfb.h \
+ /home/milutin/Predavanje/ZI/projekatZI/build/Desktop-Debug/projekatZI_autogen/EWIEGA46WW/../../../../SecurityAlgo/xxteaencryptor.h \
  /usr/include/qt6/QtCore/qtmochelpers.h \
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h \

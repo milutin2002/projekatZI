@@ -28,3 +28,45 @@ A Qt-based C++ desktop application for encrypting and decrypting files using sym
 
 ## 📁 Project Structure
 
+.
+├── CMakeCache.txt
+├── cmake_install.cmake
+├── CMakeLists.txt
+├── .gitignore
+├── main.cpp
+├── Makefile
+├── projekatZI_autogen
+│   ├── deps
+│   ├── EWIEGA46WW
+│   │   ├── moc_widget.cpp
+│   │   └── moc_widget.cpp.d
+│   ├── include
+│   │   └── ui_widget.h
+│   ├── moc_predefs.h
+│   ├── mocs_compilation.cpp
+│   └── timestamp
+├── .qt
+│   ├── QtDeploySupport.cmake
+│   └── QtDeployTargets.cmake
+├── README.md
+├── SecurityAlgo
+│   ├── enigmafileencryptor.cpp
+│   ├── enigmafileencryptor.h
+│   ├── fileencryptor.cpp
+│   ├── fileencryptor.h
+│   ├── symetricfileencryptor.cpp
+│   ├── symetricfileencryptor.h
+│   ├── tigerhash.cpp
+│   ├── tigerhash.h
+│   ├── xxteacfb.cpp
+│   ├── xxteacfb.h
+│   ├── xxteaencryptor.cpp
+│   └── xxteaencryptor.h
+├── Threads
+│   ├── threadencryptor.cpp
+│   └── threadencryptor.h
+├── widget.cpp
+├── widget.h
+└── widget.ui
+
+7 directories, 33 files

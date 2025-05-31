@@ -86,11 +86,15 @@ You likely need to install the required Qt and build tools.
 bash
 Copy
 Edit
-```sudo pacman -S qt6-base cmake g++```
+```
+sudo pacman -S qt6-base cmake g++
+```
 🐧 On Ubuntu/Debian:
 bash
 Copy
 Edit
-```sudo apt update
-sudo apt install qt6-base-dev cmake g++```
+```
+sudo apt update
+sudo apt install qt6-base-dev cmake g++
+```
 💡 Tip: If you have both Qt5 and Qt6 installed, CMake will usually find Qt6 by default. You can force a specific version using -DQt6_DIR=....

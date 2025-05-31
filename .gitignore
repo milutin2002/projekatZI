@@ -1,0 +1,54 @@
+# === C++/Qt/CMake Git Ignore ===
+
+# Build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt-generated files
+*.autosave
+*.pro.user
+*.qrc.depends
+*.qrc.generated
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Compiled object files and executables
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Debug and IDE-specific
+*.log
+*.tmp
+*.user
+*.user.*
+*.db
+*.app
+*.DS_Store
+
+# Qt Creator project files
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+
+# VSCode (if you’re using it)
+.vscode/
+
+# Clion/JetBrains
+.idea/
+*.iml
+
+# Backup files
+*~
+*.bak
+*.swp

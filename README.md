@@ -27,7 +27,7 @@ A Qt-based C++ desktop application for encrypting and decrypting files using sym
 ---
 
 ## 📁 Project Structure
-
+```
 .
 ├── CMakeCache.txt
 ├── cmake_install.cmake
@@ -70,3 +70,4 @@ A Qt-based C++ desktop application for encrypting and decrypting files using sym
 └── widget.ui
 
 7 directories, 33 files
+```

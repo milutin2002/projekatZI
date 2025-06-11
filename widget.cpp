@@ -327,6 +327,7 @@ QGroupBox * Widget::createSendToServer(){
             stream<<hashBytes;
             stream<<fileContent;
             client->disconnect();
+            QMessageBox::information(nullptr,"Sender","You have send the file "+filePath);
         }
     });
     groupBox->setLayout(layout);
@@ -391,6 +392,7 @@ void Widget::handleConnection(){
             if(file.open(QIODevice::WriteOnly) && t->hashTiger(fileContent.toStdString())==hash.toStdString() ){
                 qDebug()<<"Writing file "<< decodeDir+"/"+filename<<"\n";
                 file.write(fileContent);
+                QMessageBox::information(nullptr,"Receiver","You received file");
             }
     });
     connect(socket, &QTcpSocket::disconnected, this, [=]() {

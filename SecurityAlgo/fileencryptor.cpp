@@ -1,4 +1,5 @@
 #include "fileencryptor.h"
+#include<QMessageBox>
 FileEncryptor::FileEncryptor() {}
 
 FileEncryptor::FileEncryptor(QString ext){
@@ -22,8 +23,8 @@ void FileEncryptor::encryptFile(const QString& file,const QString &decodeDir){
         qWarning()<<"Failed to open file with";
         return;
     }
-
     outputFile.write(encodedData);
+    //QMessageBox::information(nullptr,"Success","Finished encryption of file "+file);
 }
 void FileEncryptor::decryptFile(const QString& file){
     if(!file.endsWith(ext)){
@@ -40,4 +41,5 @@ void FileEncryptor::decryptFile(const QString& file){
         return;
     }
     outputFile.write(encodedData);
+   // QMessageBox::information(nullptr,"Success","Finished decryption of file "+file);
 }

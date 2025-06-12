@@ -105,4 +105,4 @@ cmake --build .
 ```
 <h1>Screenshoots</h1>
 
-![all text]("https://github.com/milutin2002/projekatZI/blob/main/Images/startServer.png?raw=true")
+![alt text]("https://github.com/milutin2002/projekatZI/blob/main/Images/startServer.png?raw=true")

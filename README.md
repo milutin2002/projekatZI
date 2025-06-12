@@ -104,5 +104,23 @@ cmake ..
 cmake --build .
 ```
 <h1>Screenshoots</h1>
+Choose on which port will server listen on
+<img src="https://github.com/milutin2002/projekatZI/blob/main/Images/startServer.png?raw=true">
 
-![screenshoot](https://github.com/milutin2002/projekatZI/blob/main/Images/startServer.png?raw=true)
+Choose location where your file watcher will watch for new files
+<img src="https://github.com/milutin2002/projekatZI/blob/main/Images/watchDirSel.png?raw=true">
+
+Choose where decrypted files will be stored after decryption
+<img src="https://github.com/milutin2002/projekatZI/blob/main/Images/decodeDirSel.png?raw=true">
+
+Main window
+<img src="https://github.com/milutin2002/projekatZI/blob/main/Images/mainWindow.png?raw=true">
+
+Encryption
+<img src="https://github.com/milutin2002/projekatZI/blob/main/Images/encoding.gif?raw=true">
+
+Decryption
+<img src="https://github.com/milutin2002/projekatZI/blob/main/Images/decrypt.gif?raw=true">
+
+File watcher
+<img src="https://github.com/milutin2002/projekatZI/blob/main/Images/watcher.gif?raw=true">

@@ -9,5 +9,6 @@ void ThreadEncryptor::run(){
     }
     else{
         f->decryptFile(filename);
+
     }
 }

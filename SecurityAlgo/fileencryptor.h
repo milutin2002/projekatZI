@@ -17,6 +17,7 @@ public:
     virtual QByteArray decrypt(const QByteArray& data)=0;
     void encryptFile(const QString& file,const QString &decodeDir);
     void decryptFile(const QString &file);
+    QString getExt();
 
 };
 

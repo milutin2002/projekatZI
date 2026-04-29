@@ -68,3 +68,6 @@ QByteArray EnigmaFileEncryptor::encrypt(const QByteArray&data){
     return QByteArray(cipherText.c_str(),static_cast<int>(str.size()));
 
 }
+QByteArray EnigmaFileEncryptor::decrypt(const QByteArray &data){
+    return encrypt(data);
+}

@@ -43,3 +43,7 @@ void FileEncryptor::decryptFile(const QString& file){
     outputFile.write(encodedData);
    // QMessageBox::information(nullptr,"Success","Finished decryption of file "+file);
 }
+
+QString FileEncryptor::getExt(){
+    return ext;
+}

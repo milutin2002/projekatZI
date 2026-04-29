@@ -37,6 +37,7 @@ Widget::Widget(QWidget *parent)
                 QThreadPool::globalInstance()->start(t);
                 l.append(file);
                 qDebug() << "New file added:" << file;
+
             }
         }
         files=l;
@@ -84,41 +85,9 @@ QGroupBox * Widget::createDecodeMenu(){
     QPushButton * button=new QPushButton(tr("Select file"));
     connect(button,&QPushButton::clicked,this,[&](){
         QString filename=QFileDialog::getOpenFileName(this,"Select file to decode",decodeDir);
-        //encryptor->decryptFile(filename);
-        //if(selected==0){
-            ThreadEncryptor *t=new ThreadEncryptor(encryptors[selected],filename,decodeDir,false);
-            QThreadPool::globalInstance()->start(t);
-        //}
-        /*else{
-            QFile file(filename);
-            QByteArray data=QByteArray();
-            if(file.open(QIODevice::ReadOnly)){
-                data=file.readAll();
-            }
-            CountDown *c=new CountDown(8);
-            std::vector<QString>results(8);
-            int iter=data.size()/16;
-            for(int i=0;i<results.size();i++){
-                ThreadXXteaDecryptor *d=new ThreadXXteaDecryptor(results,i,data,c,xxteaEncryptor,iter);
-                QThreadPool::globalInstance()->start(d);
-            }
-             c->wait();
-            QString decodeFilename=filename.split("/").back();
-            int lastDot=decodeFilename.lastIndexOf(".");
-            decodeFilename=decodeFilename.left(lastDot);
-            decodeFilename=decodeDir+"/"+decodeFilename;
-            QFile fileD{decodeFilename};
-            if(fileD.open(QIODevice::WriteOnly)){
-                QString res="";
-                for (int i = 0; i < results.size(); ++i) {
-                    res+=results[i];
-                }
-                fileD.write(QByteArray::fromStdString(res.toStdString()));
-            }
-            //QWriteInFile *w=new QWriteInFile(c,results,filename,decodeDir);
-            //QThreadPool::globalInstance()->start(w);
+        ThreadEncryptor *t=new ThreadEncryptor(encryptors[selected],filename,decodeDir,false);
+        QThreadPool::globalInstance()->start(t);
 
-        }*/
     });
     QLabel *label=new QLabel(decodeDir);
     QPushButton * decodeButton=new QPushButton(tr("Decode selected file"));

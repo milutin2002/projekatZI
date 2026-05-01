@@ -34,7 +34,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         SecurityAlgo/tigerhash.h SecurityAlgo/tigerhash.cpp
         encryptservice.h encryptservice.cpp
         encryptorfactory.h encryptorfactory.cpp
-
+        fileservice.h fileservice.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET projekatZI APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

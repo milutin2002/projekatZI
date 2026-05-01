@@ -1,6 +1,6 @@
 #include "enigmafileencryptor.h"
 
-EnigmaFileEncryptor::EnigmaFileEncryptor():SymetricFileEncryptor(".enigma") {}
+EnigmaFileEncryptor::EnigmaFileEncryptor():FileEncryptor(".enigma") {}
 
 int EnigmaFileEncryptor::code(char ch){
     return toupper(ch)-'A';

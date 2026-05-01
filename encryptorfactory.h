@@ -2,13 +2,11 @@
 #define ENCRYPTORFACTORY_H
 
 #include <memory>
-#include <array>
 #include "encryptservice.h"
 
 
 class EncryptorFactory
 {
-public:
 public:
     // Enigma creation
     static std::unique_ptr<FileEncryptor> createEnigma(
@@ -20,8 +18,8 @@ public:
 
     // XXTEA creation
     static std::unique_ptr<FileEncryptor> createXXTEA(
-        const std::array<uint32_t,4>& key,
-        const std::array<uint32_t,4>& iv
+        uint32_t* key,
+        uint32_t* iv
         );
 };
 

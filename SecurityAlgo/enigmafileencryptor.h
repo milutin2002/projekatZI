@@ -3,7 +3,7 @@
 
 #include "symetricfileencryptor.h"
 
-class EnigmaFileEncryptor : public SymetricFileEncryptor
+class EnigmaFileEncryptor : public FileEncryptor
 {
 private:
     std::string keys[16]={"EKMFLGDQVZNTOWYHXUSPAIBRCJ","AJDKSIRUXBLHWTMCQGZNPYFVOE","BDFHJLCPRTXVZNYEIWGAKMUSQO",
@@ -31,6 +31,7 @@ public:
     }
     EnigmaFileEncryptor();
     virtual QByteArray encrypt(const QByteArray &data)override;
+    virtual QByteArray decrypt(const QByteArray &data)override;
 
 };
 

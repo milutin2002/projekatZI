@@ -77,6 +77,20 @@ A Qt-based C++ desktop application for encrypting and decrypting files using sym
 ## 📐 UML Class Diagram
 
 ```mermaid
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#e8f0fe',
+    'primaryTextColor': '#1a1a1a',
+    'primaryBorderColor': '#4a6fa5',
+    'lineColor': '#4a6fa5',
+    'secondaryColor': '#fff3cd',
+    'secondaryTextColor': '#1a1a1a',
+    'tertiaryColor': '#ffffff',
+    'tertiaryTextColor': '#1a1a1a',
+    'classText': '#1a1a1a'
+  }
+}}%%
 classDiagram
     class FileEncryptor {
         <<abstract>>

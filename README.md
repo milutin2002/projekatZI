@@ -71,6 +71,163 @@ A Qt-based C++ desktop application for encrypting and decrypting files using sym
 
 7 directories, 33 files
 ```
+
+---
+
+## 📐 UML Class Diagram
+
+```mermaid
+classDiagram
+    class FileEncryptor {
+        <<abstract>>
+        -QString ext
+        +FileEncryptor()
+        +FileEncryptor(ext: QString)
+        +encrypt(data: QByteArray) QByteArray*
+        +decrypt(data: QByteArray) QByteArray*
+        +encryptFile(file: QString, decodeDir: QString) void
+        +decryptFile(file: QString) void
+        +getExt() QString
+    }
+
+    class SymetricFileEncryptor {
+        <<abstract>>
+        +SymetricFileEncryptor()
+        +SymetricFileEncryptor(ext: QString)
+        +encrypt(data: QByteArray) QByteArray*
+        +decrypt(data: QByteArray) QByteArray
+    }
+
+    class EnigmaFileEncryptor {
+        -keys: string[16]
+        -notch: int[8][2]
+        -plugboardSettings: string
+        -keySettings: string
+        -ringSettings: string
+        -rotorSetting: string
+        +EnigmaFileEncryptor()
+        +setSettings(key: QString, ring: QString, rotor: QString, plugboard: QString) void
+        +encrypt(data: QByteArray) QByteArray
+        +decrypt(data: QByteArray) QByteArray
+    }
+
+    class XXteaEncryptor {
+        #k: uint32_t*
+        +XXteaEncryptor(k: uint32_t*)
+        +encrypt(data: QByteArray) QByteArray
+        +decrypt(data: QByteArray) QByteArray
+        +setK(k: uint32_t*) void
+        -encryptXXtea(a: uint32_t*, n: uint32_t) void
+        -decryptXXtea(a: uint32_t*, n: uint32_t) void
+    }
+
+    class XXteaCFB {
+        -iv: uint32_t*
+        +XXteaCFB(k: uint32_t*, iv: uint32_t*)
+        +encrypt(data: QByteArray) QByteArray
+        +decrypt(data: QByteArray) QByteArray
+        +setIV(iv: uint32_t*) void
+        +decryptPart(data: QByteArray, i: int, count: int) QString
+    }
+
+    class TigerHash {
+        -h0: uint64_t
+        -h1: uint64_t
+        -h2: uint64_t
+    }
+
+    class EncryptorFactory {
+        <<factory>>
+        +createEnigma(key: QString, ring: QString, rotor: QString, plugboard: QString)$ unique_ptr~FileEncryptor~
+        +createXXTEA(key: uint32_t*, iv: uint32_t*)$ unique_ptr~FileEncryptor~
+    }
+
+    class EncryptService {
+        -encryptor: unique_ptr~FileEncryptor~
+        +EncryptService()
+        +setEncryptor(e: unique_ptr~FileEncryptor~) void
+        +getEncryptor() FileEncryptor*
+        +encryptFile(file: QString, decodeDir: QString) void
+        +decryptFile(file: QString) void
+        +updateEnigmaSettings(key: QString, ring: QString, rotor: QString, plugboard: QString) void
+        +updateXXteaSettings(key: uint32_t*, iv: uint32_t*) void
+    }
+
+    class FileService {
+        +FileService()
+        +readAllTheText(filename: QString)$ QByteArray
+        +writeAllTheText(filename: QString, data: QByteArray)$ void
+    }
+
+    class ThreadEncryptor {
+        -f: FileEncryptor*
+        -filename: QString
+        -decodeDir: QString
+        -encrypt: bool
+        +ThreadEncryptor(f: FileEncryptor*, filename: QString, decodeDir: QString, encrypt: bool)
+        +run() void
+    }
+
+    class QRunnable {
+        <<Qt>>
+    }
+
+    class QWidget {
+        <<Qt>>
+    }
+
+    class QTcpServer {
+        <<Qt>>
+    }
+
+    class QFileSystemWatcher {
+        <<Qt>>
+    }
+
+    class Widget {
+        -watcherDir: QString
+        -decodeDir: QString
+        -watcher: QFileSystemWatcher*
+        -files: QStringList
+        -service: EncryptService
+        -server: QTcpServer*
+        -xxteaKey: array~uint32_t,4~
+        -xxteaIV: array~uint32_t,4~
+        -enigmaKey: QString
+        -enigmaRing: QString
+        -enigmaRotor: QString
+        -enigmaPlugboard: QString
+        +Widget(parent: QWidget*)
+        +handleConnection() void
+        -isKeyRingSettingsOk(key: QString) bool
+        -isRotorOk(rotor: QString) bool
+        -isPlugboard(plugboard: QString) bool
+    }
+
+    FileEncryptor <|-- SymetricFileEncryptor
+    FileEncryptor <|-- EnigmaFileEncryptor
+    FileEncryptor <|-- XXteaEncryptor
+    XXteaEncryptor <|-- XXteaCFB
+    QRunnable <|-- ThreadEncryptor
+    QWidget <|-- Widget
+
+    EncryptService o-- FileEncryptor : owns (unique_ptr)
+    EncryptService ..> FileService : uses
+    EncryptorFactory ..> EnigmaFileEncryptor : creates
+    EncryptorFactory ..> XXteaCFB : creates
+    ThreadEncryptor --> FileEncryptor : uses
+    Widget *-- EncryptService
+    Widget --> QTcpServer : owns
+    Widget --> QFileSystemWatcher : owns
+    Widget ..> EncryptorFactory : uses
+    Widget ..> ThreadEncryptor : creates
+    Widget ..> TigerHash : uses
+```
+
+> Note: `EnigmaFileEncryptor` inherits directly from `FileEncryptor` (not from `SymetricFileEncryptor`, which is currently unused by the rest of the codebase but kept as a reusable base for future symmetric ciphers).
+
+---
+
 🧰 Troubleshooting
 If you encounter errors such as:
 
